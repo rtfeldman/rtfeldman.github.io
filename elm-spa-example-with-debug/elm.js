@@ -17899,7 +17899,7 @@ var _user$project$Request_User$register = function (_p2) {
 			}));
 	return A3(
 		_elm_lang$http$Http$post,
-		_user$project$Request_Helpers$apiUrl('/register'),
+		_user$project$Request_Helpers$apiUrl('/users'),
 		body,
 		A2(_elm_lang$core$Json_Decode$field, 'user', _user$project$Data_User$decoder));
 };
